@@ -2,7 +2,11 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/jquery.mobile-1.4.5": [
+                "../staticresources/jQueryMobile/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"
+            ]
+        }
     },
     "include": [
         "**/*",
